@@ -28,15 +28,10 @@
 
 *Switch to the code editor and show the creation of an abstract Node class.*
 
-**Voiceover:**
-
-"Here I have created an abstract `BaseNode` class that will handle the shared logic. We’ll create a base class with common properties like `Handles`, `content`, and `text`. Then, specific node types can extend this class and customize the functionality."
-
-*Type code for the Node abstraction, showing the base class and its methods (e.g., `Node.js`).*
 
 **Voiceover:**
 
-"This `Node` class will contain all the shared behavior, so when we add new nodes, we can simply extend this class and avoid duplicating code."
+"This `BaseNode` will contain all the shared behavior, so when we add new nodes, we can simply extend this class and avoid duplicating code."
 
 *Show example of creating five new nodes by extending the `Node` class, e.g., `NewInputNode.js`, `NewOutputNode.js`, etc.*
 
@@ -52,15 +47,9 @@
 
 **Voiceover:**
 
-"Now, let’s move on to styling. The frontend doesn’t have much styling right now, so our task is to give it a more polished look."
+"Now, let’s move on to styling. "
 
 *Switch to the style file or open the CSS/SCSS file.*
-
-**Voiceover:**
-
-"We’ll be focusing on creating a unified, appealing design. You can use existing styles or build from scratch. For now, I’ll create a custom design that fits well with the node-based layout."
-
-*Type code for basic styling using CSS/SCSS, focusing on node appearance, color scheme, and layout adjustments.*
 
 **Voiceover:**
 
@@ -70,7 +59,7 @@
 
 **Voiceover:**
 
-"Now, the nodes look much more cohesive and user-friendly. You can always tweak the design later depending on your preferences."
+"Now, the nodes look much more cohesive and user-friendly."
 
 ---
 
@@ -89,16 +78,6 @@
 "First, we want the width and height of the Text node to adjust dynamically based on user input. Second, we want to allow the user to define variables inside the text input using double curly braces, like `{{ input }}`. When this happens, we’ll automatically create a new Handle to the left side of the Text node."
 
 *Type code to dynamically adjust the width/height based on text input.*
-
-**Voiceover:**
-
-"To adjust the width and height of the node dynamically, I’ll use an event listener that updates the node size as more text is entered."
-
-*Show code for detecting and handling JavaScript variable names inside the text input.*
-
-**Voiceover:**
-
-"Now, for the second part. We need to detect JavaScript variable names inside double curly braces. When we find one, we’ll create a new Handle on the left side of the node. Let me show you how that works."
 
 *Show the code for handling the variable detection and creation of new handles.*
 
@@ -124,17 +103,6 @@
 
 *Open `submit.js` and show the logic for sending data to the backend.*
 
-**Voiceover:**
-
-"In `submit.js`, we’ll add the logic to send the current nodes and edges to the backend’s `/pipelines/parse` endpoint when the user clicks submit. This will allow the backend to process the data and calculate the number of nodes and edges."
-
-*Type code for the fetch request to the backend, sending pipeline data.*
-
-**Voiceover:**
-
-"Now, I’ll set up a fetch request to send this data as a JSON object to the backend endpoint."
-
-*Switch to the backend code in `main.py`.*
 
 **Voiceover:**
 
@@ -172,7 +140,7 @@
 
 **Voiceover:**
 
-"Thanks for watching! I hope this walkthrough was helpful. Happy coding!"
+"Thanks you!"
 
 ---
 
