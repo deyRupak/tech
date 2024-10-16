@@ -8,7 +8,7 @@
 
 **Voiceover:**
 
-"Hey everyone! In this screen recording, I’ll be walking you through a series of tasks to improve the frontend and backend functionality of this node-based pipeline tool. We’ll cover four main parts: Node Abstraction, Styling, Text Node Logic, and Backend Integration. Let’s dive in!"
+"Hello! This is Rupak Dey. In this screen recording, I’ll be walking you through the series of tasks to complete the assessment. I’ll cover four main parts: Node Abstraction, Styling, Text Node Logic, and Backend Integration. Let’s dive in!"
 
 ---
 
@@ -30,7 +30,7 @@
 
 **Voiceover:**
 
-"Let’s create an abstract `Node` class that will handle the shared logic. We’ll create a base class with common properties like `Handles`, `content`, and `text`. Then, specific node types can extend this class and customize the functionality."
+"Here I have created an abstract `BaseNode` class that will handle the shared logic. We’ll create a base class with common properties like `Handles`, `content`, and `text`. Then, specific node types can extend this class and customize the functionality."
 
 *Type code for the Node abstraction, showing the base class and its methods (e.g., `Node.js`).*
 
